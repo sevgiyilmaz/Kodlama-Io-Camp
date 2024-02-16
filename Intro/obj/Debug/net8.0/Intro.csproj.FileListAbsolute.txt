@@ -12,3 +12,4 @@ C:\Users\sevgi\source\repos\Intro\Intro\obj\Debug\net8.0\refint\Intro.dll
 C:\Users\sevgi\source\repos\Intro\Intro\obj\Debug\net8.0\Intro.pdb
 C:\Users\sevgi\source\repos\Intro\Intro\obj\Debug\net8.0\Intro.genruntimeconfig.cache
 C:\Users\sevgi\source\repos\Intro\Intro\obj\Debug\net8.0\ref\Intro.dll
+C:\Users\sevgi\source\repos\Intro\Intro\obj\Debug\net8.0\Intro.sourcelink.json

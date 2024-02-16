@@ -61,3 +61,38 @@ for (int i = 0; i < courses2.Length; i++)
     Console.WriteLine(courses2[i].Name + " / " + courses2[i].Price);
 }
 
+Console.WriteLine("kod bitti");
+
+IndividualCustomer customer1 = new IndividualCustomer();
+customer1.Id = 1;
+customer1.NatıonalIdentity = "12345678922";
+customer1.FİrstName = "Aslı";
+customer1.LastName = "Karayiğit";
+customer1.CustomerNumber = "123457";
+
+IndividualCustomer customer2 = new IndividualCustomer();
+customer2.Id = 2;
+customer2.NatıonalIdentity = "12372389874";
+customer2.FİrstName = "Özgür";
+customer2.LastName = "Atılgan";
+customer2.CustomerNumber = "123896";
+
+CorporateCustomer customer3 = new CorporateCustomer();
+customer3.Id = 3;
+customer3.Name = "Kodlamaio";
+customer3.CustomerNumber = "654778";
+customer3.TaxNumber = "12672398230";
+
+CorporateCustomer customer4 = new CorporateCustomer();
+customer4.Id = 4;
+customer4.Name = "ABC";
+customer4.CustomerNumber = "654566";
+customer4.TaxNumber = "126723988340";
+
+BaseCustomer[] customers = {  customer1, customer2, customer3, customer4 };
+
+//POLYMORPHISM
+foreach (BaseCustomer customer in customers)
+{
+    Console.WriteLine(customer.CustomerNumber);
+}
