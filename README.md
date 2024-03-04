@@ -1,1 +1,1 @@
-2024 Yazılım Geliştirme Kampı ( C# )
+The 2024 Software Development Camp (C#)
